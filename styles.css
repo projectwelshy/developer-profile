@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  font-family: "Geist Variable", sans-serif;
+  padding: 40px;
+  color: #27272a;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  gap: 8px;
+}
+
+h1 {
+  color: #a1a1a1;
+  font-size: 40px;
+}
+
+h2 {
+  color: #a1a1a1;
+}
+
+section {
+  margin: 40px auto;
+  border: 1px solid lightgray;
+  padding: 40px;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.skills-box {
+  display: flex;
+  gap: 20px;
+}
+
+.skill-card {
+  border: 1px solid lightgray;
+  padding: 20px;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  flex: 1;
+}
+
+
